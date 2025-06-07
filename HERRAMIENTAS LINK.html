@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas de IA</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Use the Inter font family */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles for button transitions */
+        .btn-transition {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .btn-transition:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 py-8 md:py-16">
+
+        <!-- Header -->
+        <header class="text-center mb-10 md:mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">Herramientas de IA</h1>
+            <p class="mt-2 text-lg text-gray-600 dark:text-gray-400">Una colección de enlaces a aplicaciones de IA populares.</p>
+        </header>
+
+        <!-- Grid for Links -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+            <!-- Gemini Link -->
+            <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard" target="_blank" rel="noopener noreferrer" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md flex items-center space-x-4 btn-transition">
+                <!-- Icon -->
+                <div class="flex-shrink-0">
+                    <svg class="w-8 h-8 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </div>
+                <!-- Text -->
+                <div>
+                    <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Gemini</h2>
+                    <p class="text-gray-500 dark:text-gray-400">Asistente de IA de Google</p>
+                </div>
+            </a>
+
+            <!-- ChatGPT Link -->
+            <a href="https://play.google.com/store/apps/details?id=com.openai.chatgpt" target="_blank" rel="noopener noreferrer" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md flex items-center space-x-4 btn-transition">
+                 <!-- Icon -->
+                <div class="flex-shrink-0">
+                     <svg class="w-8 h-8 text-teal-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"/></svg>
+                </div>
+                <!-- Text -->
+                <div>
+                    <h2 class="text-lg font-semibold text-gray-900 dark:text-white">ChatGPT</h2>
+                    <p class="text-gray-500 dark:text-gray-400">IA conversacional de OpenAI</p>
+                </div>
+            </a>
+
+            <!-- Grok Link -->
+            <a href="https://play.google.com/store/apps/details?id=ai.x.grok" target="_blank" rel="noopener noreferrer" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md flex items-center space-x-4 btn-transition">
+                <!-- Icon -->
+                <div class="flex-shrink-0">
+                    <svg class="w-8 h-8 text-gray-700 dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                </div>
+                <!-- Text -->
+                <div>
+                    <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Grok</h2>
+                    <p class="text-gray-500 dark:text-gray-400">IA por xAI</p>
+                </div>
+            </a>
+
+            <!-- Claude Link -->
+            <a href="https://play.google.com/store/apps/details?id=com.anthropic.claude" target="_blank" rel="noopener noreferrer" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md flex items-center space-x-4 btn-transition">
+                <!-- Icon -->
+                <div class="flex-shrink-0">
+                    <svg class="w-8 h-8 text-purple-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 0-10 10c0 4.42 2.87 8.17 6.84 9.5.43.08.66-.19.66-.42v-1.5c-2.78.6-3.37-1.18-3.37-1.18a2.65 2.65 0 0 0-1.1-1.45c-.9-.62.07-.6.07-.6a2.08 2.08 0 0 1 1.52 1.03c.9 1.55 2.36 1.1 2.94.84a2.1 2.1 0 0 1 .63-1.34C8.65 14.3 5.92 13.3 5.92 9.5a3.67 3.67 0 0 1 1-2.5c-.1-.25-.44-1.18.1-2.46 0 0 .84-.27 2.75 1.02a9.55 9.55 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.54 1.28.2 2.21.1 2.46a3.67 3.67 0 0 1 1 2.5c0 3.8-2.73 4.78-5.34 5.07a2.18 2.18 0 0 1 .66 1.68v2.46c0 .23.23.5.67.42A10 10 0 0 0 22 12a10 10 0 0 0-10-10z"/></svg>
+                </div>
+                <!-- Text -->
+                <div>
+                    <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Claude</h2>
+                    <p class="text-gray-500 dark:text-gray-400">Modelo de IA de Anthropic</p>
+                </div>
+            </a>
+
+            <!-- DeepSeek Link -->
+            <a href="https://play.google.com/store/apps/details?id=com.deepseek.chat" target="_blank" rel="noopener noreferrer" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md flex items-center space-x-4 btn-transition">
+                <!-- Icon -->
+                <div class="flex-shrink-0">
+                     <svg class="w-8 h-8 text-indigo-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 16.9 8.9l-5.23 5.23a2 2 0 0 1-2.83-2.83l6.88-6.88"/></svg>
+                </div>
+                <!-- Text -->
+                <div>
+                    <h2 class="text-lg font-semibold text-gray-900 dark:text-white">DeepSeek</h2>
+                    <p class="text-gray-500 dark:text-gray-400">Plataforma de IA abierta</p>
+                </div>
+            </a>
+
+            <!-- Riffusion Link -->
+            <a href="https://www.riffusion.com/" target="_blank" rel="noopener noreferrer" class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md flex items-center space-x-4 btn-transition">
+                <!-- Icon -->
+                <div class="flex-shrink-0">
+                    <svg class="w-8 h-8 text-pink-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                </div>
+                <!-- Text -->
+                <div>
+                    <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Riffusion</h2>
+                    <p class="text-gray-500 dark:text-gray-400">Creación de música con IA</p>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
